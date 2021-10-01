@@ -38,7 +38,7 @@ A Jenkin Templating Engine implementation
              * builds/continuous-integration
              * builds/release
 ## Using within a project
-  Within a project repository (in BitBucket terms) simply include a `pipeline_config.groovy` file
+  Within a repository simply include a `pipeline_config.groovy` file in the root folder
   
   For example:
   * A Maven Build
