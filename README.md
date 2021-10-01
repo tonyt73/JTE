@@ -1,8 +1,7 @@
 # JTE
 A Jenkin Templating Engine implementation
-
-My implementation:
-Overview:
+# My implementation
+## Overview:
   This is the core JTE implement for build jobs in Jenkins
   I use Jenkins Organisation Folders to define a build type
    eg: I have 3 types at present
@@ -27,7 +26,7 @@ Overview:
              * builds/continuous-integration
              * builds/release
 
-Links:
+## Links:
  * Github project: https://github.com/steven-terrana/templating-engine-plugin
  * Gitter community: https://gitter.im/jenkinsci/templating-engine-plugin
 
