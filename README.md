@@ -2,13 +2,25 @@
 A Jenkin Templating Engine implementation
 
 ## Overview:
-  This is the core JTE implement for build jobs in Jenkins
+  This is the core JTE implement for build jobs in Jenkins.
+  
   I use Jenkins Organisation Folders to define a build type; of which I use 3:
    * Pull Request Validation
+     * Validates the Pull Requests for merge to main/develop branch
+     * Runs unit tests
+     * No artifacts are kept
    * Continuous Integration
+     * Builds a debug version
+     * Full CI testing
+       * Includes BDD testing
+     * Artifacts are stored in Artifactory
    * Release
+     * Creates a release branch
+     * Builds a release version (no debug)
+     * Artifacts are stored in Artifactory
+     * Deploys to smoke test environment
 
-  Each are setup in almost the same manor
+  Each are setup in almost the same manor, with the exception of the Configuration Base Directory setting
    * Projects > Repository Sources > BitBucket Team/Project
    * Project Recognizers
      * Jenkins Templating Engine (only, remove any others)
