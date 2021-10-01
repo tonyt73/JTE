@@ -54,10 +54,13 @@ A Jenkin Templating Engine implementation
   }
 ```
  * Both inherit the base configuration libraries defined in `pipleine-configuration/pipeline_config.groovy`:
-   * sonarqube
-   * artifactory
-   * git
-   
+```
+@merge libraries {
+  sonarqube
+  artifactory
+  git
+}
+```  
 
 ## Links:
  * Github project: https://github.com/steven-terrana/templating-engine-plugin
