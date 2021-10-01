@@ -1,0 +1,4 @@
+@merge libraries {
+    git
+}
+
