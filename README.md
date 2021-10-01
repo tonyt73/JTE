@@ -4,8 +4,7 @@ A Jenkin Templating Engine implementation
 ## Overview:
   This is the core JTE implement for build jobs in Jenkins
   I use Jenkins Organisation Folders to define a build type
-   eg: I have 3 types at present
-   
+   eg: I have 3 types at present   
      * Pull Request Validation
      * Continuous Integration
      * Release
