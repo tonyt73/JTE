@@ -37,6 +37,27 @@ A Jenkin Templating Engine implementation
              * builds/pull-request-validation
              * builds/continuous-integration
              * builds/release
+## Using in my projects
+  Within a project repository (in BitBucket terms) simply include a `pipeline_config.groovy` file
+  
+  For example:
+  * A Maven Build
+```
+  libraries {
+    maven
+  }
+```
+  * A Gradle Build
+```
+  libraries {
+    gradle
+  }
+```
+ * Both inherit the base configuration libraries defined in `pipleine-configuration/pipeline_config.groovy`:
+   * sonarqube
+   * artifactory
+   * git
+   
 
 ## Links:
  * Github project: https://github.com/steven-terrana/templating-engine-plugin
