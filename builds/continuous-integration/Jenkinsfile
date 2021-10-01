@@ -1,1 +1,2 @@
+// this is a stage definition from the pipeline-configuration/pipeline_config.groovy file
 continuous_integration()
