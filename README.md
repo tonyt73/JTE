@@ -37,7 +37,7 @@ A Jenkin Templating Engine implementation
              * builds/pull-request-validation
              * builds/continuous-integration
              * builds/release
-## Using in my projects
+## Using within a project
   Within a project repository (in BitBucket terms) simply include a `pipeline_config.groovy` file
   
   For example:
