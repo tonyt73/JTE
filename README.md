@@ -3,11 +3,11 @@ A Jenkin Templating Engine implementation
 # My implementation
 ## Overview:
   This is the core JTE implement for build jobs in Jenkins
-  I use Jenkins Organisation Folders to define a build type
-   eg: I have 3 types at present   
-     * Pull Request Validation
-     * Continuous Integration
-     * Release
+  I use Jenkins Organisation Folders to define a build type; of which I use 3:
+   * Pull Request Validation
+   * Continuous Integration
+   * Release
+
   Each are setup in almost the same manor
    * Projects > Repository Sources > BitBucket Team/Project
    * Project Recognizers
